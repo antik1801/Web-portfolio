@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&family=Bebas+Neue&family=Pacifico&family=Poppins&family=Roboto+Condensed&family=Satisfy&display=swap");
+/*
+font-family: 'Acme', sans-serif;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Satisfy', cursive;
+  */
+
+h1 {
+  font-family: "Poppins", sans-serif;
+}
+span {
+  /* animation: flicker 1.5s infinite alternate;   */
+}
+.name-hilite {
+  color: goldenrod;
+}
+.neonText {
+  color: goldenrod;
+  text-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 21px #fff, 0 0 42px #0fa,
+    0 0 82px #0fa, 0 0 92px #0fa, 0 0 102px #0fa, 0 0 151px #0fa;
+}
+@keyframes flicker {
+  0%,
+  18%,
+  22%,
+  25%,
+  53%,
+  57%,
+  100% {
+    text-shadow: 0 0 4px #fff, 0 0 11px #fff, 0 0 19px #fff, 0 0 40px #0fa,
+      0 0 80px #0fa, 0 0 90px #0fa, 0 0 100px #0fa, 0 0 150px #0fa;
+  }
+  20%,
+  24%,
+  55% {
+    text-shadow: none;
+  }
+}
+.half-width {
+
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+}
+.half-width img {
+  width: 95%;
+  height: 100%;
+}
